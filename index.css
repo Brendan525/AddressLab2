@@ -1,0 +1,68 @@
+body {
+    background-image: url(images/Contact.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+section {
+    border: 1px solid lightgray;
+    width: 60%;
+    max-width: 600px;
+    text-align: center;
+    border: 1px;
+    font-family: sans-serif;
+    background-color: white;
+    position: relative;
+    padding: 50px 0;
+}
+
+h3 {
+    font-family: cursive;
+    color: grey;
+    margin: 10px 0 30px;
+}
+
+h1 {
+    font-size: 32px;
+    margin-top: 50;
+}
+
+span {
+    position: absolute;
+    right: 70px;
+}
+
+input,
+button {
+    width: 79%;
+    margin-bottom: 40px;
+    padding-bottom: 10px;
+    font-size: 20;
+    
+}
+
+button {
+    height: 50px;
+    color: white;
+    background-color: #3598DB;
+    border: solid;
+    width: 40%
+    
+}
+
+h1,button { 
+    text-transform: uppercase;
+}
+
+.lightgrey {
+    color: lightgrey;
+}
+
+select {
+    width: 79%;
+    margin-bottom: 40px;
+    padding-bottom: 10px;
+    font-size: 20;
+}
